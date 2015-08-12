@@ -1,0 +1,18 @@
+.cf { zoom: 1; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+</style>
+
+<style>
+.comb_fl {
+}
+.comb_fl > div {
+	float: left;
+	width: 600px;
+	margin-right: 10px;
+    margin-bottom: 10px;
+}
+.comb_fl > div:last-child {
+	margin-right: 0px;
+    margin-bottom: 0px;
+}
